@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  color: #fff; /* Set text color to white */
+}
+
+header {
+  background-color: #7b7c9b;
+  color: #fff;
+  padding: 20px;
+  text-align: center;
+}
+
+header img {
+  width: 50px;
+  height: 50px;
+  vertical-align: middle;
+}
+
+.top-banner {
+  position: relative;
+  background-color: #ffcc00; /* Set background to yellow */
+  color: #ff8c00; /* Set text color to orange */
+  text-align: center;
+  padding: 20px;
+  margin-top: 20px;
+  border-radius: 50%; /* Rounded shape */
+}
+
+.top-banner form input[type="text"] {
+  border: none;
+  background: none;
+  border-bottom: 2px solid #fff;
+  color: #fff;
+  padding: 8px 15px;
+  margin-right: 10px;
+  width: 200px;
+}
+
+.top-banner form button {
+  border: 2px solid #fff;
+  background: none;
+  color: #fff;
+  padding: 8px 15px;
+  cursor: pointer;
+}
+
+.top-banner form button:hover {
+  background-color: #fff;
+  color: #000;
+}
+
+.top-banner form .msg {
+  color: #ff1e42;
+  font-style: italic;
+}
+
+.ajax-section {
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+ul.cities {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.city {
+  position: relative;
+  background-color: #ffcc00; /* Set background to yellow */
+  color: #ff8c00; /* Set text color to orange */
+  padding: 20px;
+  margin: 20px;
+  border-radius: 50%; /* Rounded shape */
+}
+
+.city::before {
+  content: ''; /* Create sun shape using pseudo-element */
+  position: absolute;
+  top: -20px; /* Adjust position to center the sun */
+  left: -20px; /* Adjust position to center the sun */
+  width: 100px; /* Adjust size of the sun */
+  height: 100px; /* Adjust size of the sun */
+  background-color: #ff8c00; /* Set sun color to orange */
+  border-radius: 50%; /* Rounded shape */
+}
+
+.city-temp {
+  font-size: 2rem;
+}
+
+footer img {
+  position: absolute;
+  bottom: 0;
+  color: #fff; /* Set cloud logo color to white */
+}
+
+
+
+  
+  
+  
